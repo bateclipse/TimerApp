@@ -1,3 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">TimerApp</string>
+    <!-- App Name -->
+    <string name="app_name">Kitchen Timer</string>
+    
+    <!-- Navigation Menu Items -->
+    <string name="nav_timers">Timers</string>
+    <string name="nav_products">Products</string>
+    <string name="nav_recipes">Recipes</string>
+    <string name="nav_calculators">Calculators</string>
+    <string name="nav_notes">Notes</string>
+    <string name="nav_temperatures">Temperatures</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Timer Screen -->
+    <string name="timer_a">Timer A</string>
+    <string name="timer_b">Timer B</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="stop">Stop</string>
+    <string name="edit_timer_name">Edit timer name</string>
+    
+    <!-- Time Presets (Quick Select) -->
+    <string name="preset_1min">1 min</string>
+    <string name="preset_3min">3 min</string>
+    <string name="preset_5min">5 min</string>
+    <string name="preset_10min">10 min</string>
+    <string name="preset_15min">15 min</string>
+    <string name="preset_30min">30 min</string>
+    
+    <!-- Product Presets -->
+    <string name="product_chicken_breast">Chicken Breast</string>
+    <string name="product_soft_eggs">Soft Eggs</string>
+    <string name="product_hard_eggs">Hard Eggs</string>
+    <string name="product_pasta">Pasta</string>
+    <string name="product_rice">Rice</string>
+    <string name="product_potato">Potato</string>
+    <string name="product_fish">Fish</string>
+    <string name="product_beef">Beef</string>
+    <string name="product_tea">Tea</string>
+    
+    <!-- Settings -->
+    <string name="settings_sound">Sound</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_export_import">Export/Import</string>
+    <string name="settings_select_sound">Select notification sound</string>
+    <string name="settings_preview_sound">Preview sound</string>
+    
+    <!-- Menu Actions -->
+    <string name="menu_export">Export</string>
+    <string name="menu_import">Import</string>
+    <string name="menu_share">Share</string>
+    
+    <!-- About -->
+    <string name="about_title">About</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_description">Kitchen Timer - your reliable assistant in the kitchen</string>
+    
+    <!-- Placeholder Screens -->
+    <string name="coming_soon">Coming soon</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">Timer Notifications</string>
+    <string name="notification_channel_description">Notifications for active timers</string>
+    <string name="notification_timer_running">Timer running</string>
+    <string name="notification_time_remaining">%1$s remaining</string>
+    <string name="notification_timer_finished">Timer finished!</string>
+    
+    <!-- Drawer -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    
+    <!-- Theme Options -->
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
 </resources>
