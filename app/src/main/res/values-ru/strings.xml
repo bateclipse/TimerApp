@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Кухонный Таймер</string>
+    
+    <!-- Navigation Menu Items -->
+    <string name="nav_timers">Таймеры</string>
+    <string name="nav_products">Продукты</string>
+    <string name="nav_recipes">Рецепты</string>
+    <string name="nav_calculators">Калькуляторы</string>
+    <string name="nav_notes">Заметки</string>
+    <string name="nav_temperatures">Температуры</string>
+    <string name="nav_settings">Настройки</string>
+    
+    <!-- Timer Screen -->
+    <string name="timer_a">Таймер A</string>
+    <string name="timer_b">Таймер B</string>
+    <string name="start">Старт</string>
+    <string name="pause">Пауза</string>
+    <string name="reset">Сброс</string>
+    <string name="stop">Стоп</string>
+    <string name="edit_timer_name">Изменить имя таймера</string>
+    
+    <!-- Time Presets (Quick Select) -->
+    <string name="preset_1min">1 мин</string>
+    <string name="preset_3min">3 мин</string>
+    <string name="preset_5min">5 мин</string>
+    <string name="preset_10min">10 мин</string>
+    <string name="preset_15min">15 мин</string>
+    <string name="preset_30min">30 мин</string>
+    
+    <!-- Product Presets -->
+    <string name="product_chicken_breast">Куриная грудка</string>
+    <string name="product_soft_eggs">Яйца всмятку</string>
+    <string name="product_hard_eggs">Яйца вкрутую</string>
+    <string name="product_pasta">Макароны</string>
+    <string name="product_rice">Рис</string>
+    <string name="product_potato">Картофель</string>
+    <string name="product_fish">Рыба</string>
+    <string name="product_beef">Говядина</string>
+    <string name="product_tea">Чай</string>
+    
+    <!-- Settings -->
+    <string name="settings_sound">Звук</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_export_import">Экспорт/Импорт</string>
+    <string name="settings_select_sound">Выбрать звук уведомления</string>
+    <string name="settings_preview_sound">Предпрослушивание</string>
+    
+    <!-- Menu Actions -->
+    <string name="menu_export">Экспорт</string>
+    <string name="menu_import">Импорт</string>
+    <string name="menu_share">Поделиться</string>
+    
+    <!-- About -->
+    <string name="about_title">О программе</string>
+    <string name="about_version">Версия %1$s</string>
+    <string name="about_description">Кухонный Таймер - ваш надёжный помощник на кухне</string>
+    
+    <!-- Placeholder Screens -->
+    <string name="coming_soon">В разработке</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">Уведомления таймера</string>
+    <string name="notification_channel_description">Уведомления для активных таймеров</string>
+    <string name="notification_timer_running">Таймер запущен</string>
+    <string name="notification_time_remaining">Осталось: %1$s</string>
+    <string name="notification_timer_finished">Таймер завершён!</string>
+    
+    <!-- Drawer -->
+    <string name="drawer_open">Открыть меню навигации</string>
+    <string name="drawer_close">Закрыть меню навигации</string>
+    
+    <!-- Theme Options -->
+    <string name="theme_system">Системная</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+</resources>
