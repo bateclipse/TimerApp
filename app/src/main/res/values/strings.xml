@@ -20,6 +20,7 @@
     <string name="reset">Reset</string>
     <string name="stop">Stop</string>
     <string name="edit_timer_name">Edit timer name</string>
+    <string name="select_timer_for_preset">Select timer to set time</string>
     
     <!-- Time Presets (Quick Select) -->
     <string name="preset_1min">1 min</string>

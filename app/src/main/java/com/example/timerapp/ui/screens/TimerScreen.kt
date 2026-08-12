@@ -175,7 +175,7 @@ fun TimerScreen(
                             label = { Text(stringResource(R.string.timer_b)) }
                         )
                         Text(
-                            text = "Выберите таймер для установки времени",
+                            text = stringResource(R.string.select_timer_for_preset),
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                             modifier = Modifier.padding(start = 8.dp),

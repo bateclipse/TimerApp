@@ -108,8 +108,7 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
             val count = ringtoneManager.count
             for (i in 0 until count) {
                 val uri = ringtoneManager.getRingtoneUri(i)
-                val ringtone = ringtoneManager.getRingtone(i)
-                val title = ringtone.getTitle(getApplication())
+                val title = ringtoneManager.getRingtone(i).getTitle(getApplication())
                 if (uri != null && title != null) {
                     sounds.add(Pair(title, uri))
                 }
