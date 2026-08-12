@@ -2,6 +2,8 @@ package com.example.timerapp.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
@@ -62,8 +64,7 @@ fun ProductPresetChips(
             horizontalArrangement = Arrangement.spacedBy(8.dp),
             contentPadding = PaddingValues(horizontal = 16.dp)
         ) {
-            items(presets.size) { index ->
-                val preset = presets[index]
+            items(presets) { preset ->
                 ProductChip(
                     preset = preset,
                     onClick = { onProductSelected(preset.durationSeconds) }

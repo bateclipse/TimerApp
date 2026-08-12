@@ -100,14 +100,16 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
      */
     private fun loadSystemSounds() {
         viewModelScope.launch {
-            val ringtoneManager = RingtoneManager(getApplication())
-            ringtoneManager.type = RingtoneManager.TYPE_NOTIFICATION
+            val ringtoneManager = RingtoneManager(getApplication()).apply {
+                setType(RingtoneManager.TYPE_NOTIFICATION)
+            }
             
             val sounds = mutableListOf<Pair<String, Uri>>()
             val count = ringtoneManager.count
             for (i in 0 until count) {
                 val uri = ringtoneManager.getRingtoneUri(i)
-                val title = ringtoneManager.getRingtone(i).getTitle(getApplication())
+                val ringtone = ringtoneManager.getRingtone(i)
+                val title = ringtone.getTitle(getApplication())
                 if (uri != null && title != null) {
                     sounds.add(Pair(title, uri))
                 }
