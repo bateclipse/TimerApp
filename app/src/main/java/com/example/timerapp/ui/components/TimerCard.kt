@@ -8,7 +8,6 @@ import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Pause
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.*
@@ -169,7 +168,7 @@ fun TimerCard(
                     modifier = Modifier.size(56.dp)
                 ) {
                     Icon(
-                        imageVector = if (state.isRunning) Icons.Default.Pause else Icons.Default.PlayArrow,
+                        imageVector = if (state.isRunning) androidx.compose.material.icons.filled.Pause else Icons.Default.PlayArrow,
                         contentDescription = if (state.isRunning) "Pause" else "Start",
                         modifier = Modifier.size(28.dp)
                     )
