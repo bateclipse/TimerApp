@@ -174,12 +174,11 @@ fun TimerScreen(
                             onClick = { viewModel.setActiveTimer("B") },
                             label = { Text(stringResource(R.string.timer_b)) }
                         )
+                        Spacer(modifier = Modifier.width(8.dp))
                         Text(
                             text = stringResource(R.string.select_timer_for_preset),
                             style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                            modifier = Modifier.padding(start = 8.dp),
-                            verticalAlignment = Alignment.CenterVertically
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
                     }
                 }

@@ -3,8 +3,14 @@ package com.example.timerapp.ui.components
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.*
-import androidx.compose.material.icons.outlined.*
+import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.outlined.AccessTime
+import androidx.compose.material.icons.outlined.Fastfood
+import androidx.compose.material.icons.outlined.RestaurantMenu
+import androidx.compose.material.icons.outlined.Calculate
+import androidx.compose.material.icons.outlined.NoteAlt
+import androidx.compose.material.icons.outlined.Thermostat
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier

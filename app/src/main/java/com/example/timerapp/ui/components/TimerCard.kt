@@ -12,6 +12,7 @@ import androidx.compose.material.icons.filled.Pause
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.*
+import androidx.compose.material.icons.filled.Pause as PauseIcon
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -169,7 +170,7 @@ fun TimerCard(
                     modifier = Modifier.size(56.dp)
                 ) {
                     Icon(
-                        imageVector = if (state.isRunning) androidx.compose.material.icons.filled.Pause else Icons.Default.PlayArrow,
+                        imageVector = if (state.isRunning) PauseIcon else Icons.Default.PlayArrow,
                         contentDescription = if (state.isRunning) "Pause" else "Start",
                         modifier = Modifier.size(28.dp)
                     )

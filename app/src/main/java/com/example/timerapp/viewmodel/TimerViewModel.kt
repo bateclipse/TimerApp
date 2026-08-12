@@ -105,7 +105,7 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
             }
             
             val sounds = mutableListOf<Pair<String, Uri>>()
-            val count = ringtoneManager.count
+            val count = ringtoneManager.count.toInt()
             for (i in 0 until count) {
                 val uri = ringtoneManager.getRingtoneUri(i)
                 val title = ringtoneManager.getRingtone(i).getTitle(getApplication())
