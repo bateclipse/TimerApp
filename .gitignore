@@ -1,98 +1,21 @@
 ```
-# Build artifacts
-build/
-*.apk
-*.aar
-*.jar
-*.class
-
 # Dependencies
 .gradle/
-node_modules/
-venv/
-.venv/
-
-# IDE files
-.idea/
-.vscode/
-*.iml
-*.ipr
-*.iws
-
-# Logs
-*.log
+build/
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
+# Logs
 *.log
-.git/modules/
-*.sublime-workspace
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
 
-# Gradle
-.gradle/
-build/
-!gradle/wrapper/gradle-wrapper.jar
+# IDE
+.idea/
+.vscode/
 
-# Android
-*.apk
-*.ap_
-build/
-gen/
-bin/
-res/raw/
-proguard/
-local.properties
-.settings/
-.loadavg
-*.ap_
-captures/
-.externalToolBuilders/
-.gradle/
-application.xml
-deploy.properties
-sonar-project.properties
-storeVersion/
-webContext.xml
-webContexts.xml
-*.launch
-.classpath
-.project
-.metadata
-tmp/
-temp/
-
-# Kotlin
-*.kotlin_metadata
-*.kotlin_builtins
-
-# General
-*.tmp
-*.swp
-*~
+# OS
 .DS_Store
 Thumbs.db
 ```

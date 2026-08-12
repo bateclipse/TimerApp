@@ -7,7 +7,9 @@ import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -68,10 +70,7 @@ fun TimerScreen(
                 onCloseDrawer = { drawerOpen = false }
             )
         },
-        gesturesEnabled = true,
-        isOpen = drawerOpen,
-        onOpen = { drawerOpen = true },
-        onClose = { drawerOpen = false }
+        gesturesEnabled = true
     ) {
         Scaffold(
             topBar = {
@@ -80,7 +79,7 @@ fun TimerScreen(
                     navigationIcon = {
                         IconButton(onClick = { drawerOpen = true }) {
                             Icon(
-                                imageVector = Icons.Default.Menu,
+                                imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                                 contentDescription = stringResource(R.string.drawer_open)
                             )
                         }
@@ -269,8 +268,7 @@ private fun SoundSettingsSection(
             title = { Text(stringResource(R.string.settings_select_sound)) },
             text = {
                 LazyColumn {
-                    items(sounds.size) { index ->
-                        val (title, uri) = sounds[index]
+                    items(sounds) { (title, uri) ->
                         val uriString = uri.toString()
                         ListItem(
                             headlineContent = { Text(title) },

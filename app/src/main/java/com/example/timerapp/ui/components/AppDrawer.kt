@@ -4,6 +4,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
+import androidx.compose.material.icons.outlined.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -54,7 +55,7 @@ fun AppDrawer(
                 onNavigate("timers")
                 onCloseDrawer()
             },
-            icon = { Icon(Icons.Default.Timer, contentDescription = null) },
+            icon = { Icon(Icons.Outlined.Timer, contentDescription = null) },
             modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp)
         )
         
@@ -65,7 +66,7 @@ fun AppDrawer(
                 onNavigate("products")
                 onCloseDrawer()
             },
-            icon = { Icon(Icons.Default.Fastfood, contentDescription = null) },
+            icon = { Icon(Icons.Outlined.Fastfood, contentDescription = null) },
             modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp)
         )
         
@@ -76,7 +77,7 @@ fun AppDrawer(
                 onNavigate("recipes")
                 onCloseDrawer()
             },
-            icon = { Icon(Icons.Default.RestaurantMenu, contentDescription = null) },
+            icon = { Icon(Icons.Outlined.Restaurant, contentDescription = null) },
             modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp)
         )
         
@@ -87,7 +88,7 @@ fun AppDrawer(
                 onNavigate("calculators")
                 onCloseDrawer()
             },
-            icon = { Icon(Icons.Default.Calculate, contentDescription = null) },
+            icon = { Icon(Icons.Outlined.Calculate, contentDescription = null) },
             modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp)
         )
         
@@ -98,7 +99,7 @@ fun AppDrawer(
                 onNavigate("notes")
                 onCloseDrawer()
             },
-            icon = { Icon(Icons.Default.Note, contentDescription = null) },
+            icon = { Icon(Icons.Outlined.NoteAlt, contentDescription = null) },
             modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp)
         )
         
@@ -109,7 +110,7 @@ fun AppDrawer(
                 onNavigate("temperatures")
                 onCloseDrawer()
             },
-            icon = { Icon(Icons.Default.Thermostat, contentDescription = null) },
+            icon = { Icon(Icons.Outlined.Thermostat, contentDescription = null) },
             modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp)
         )
         
